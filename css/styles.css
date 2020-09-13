@@ -1,0 +1,178 @@
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color-main: #2196f3;
+}
+
+/* GLOBAL */
+body {
+  color: var(--main-text-color);
+  background-color: #fff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* HEADER */
+.navbar-link {
+  color: var(--secondary-text-color);
+}
+
+.logo-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.navbar {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.logo-title-style,
+.navbar-link:hover,
+.navbar-link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color-main);
+}
+
+/* HERO */
+.hero {
+  background-color: #2f303a;
+
+  text-align: center;
+}
+
+.hero-title {
+  color: #fff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color-main);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* FEATURES */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* WHAT WE DO */
+.team-section {
+  background-color: #f5f4fa;
+}
+
+/* OUR TEAM */
+.team-employee {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-employee.name {
+  font-weight: 500;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-title.footer {
+  color: #fff;
+}
+
+.address-list {
+  color: #fff;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-list .address-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ======PAGE PORTFOLIO====== */
+
+/*PORTFOLIO FILTER */
+.filter-btn {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color-main);
+  color: #fff;
+}
+/* PROJECTS */
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-category {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* ПЕРЕДЕЛАТЬ БАТТОНЫ НА ССЫЛКИ Т.К И  ПОСТАВИТЬ ЯКОРЯ */
+/* ПЕРЕИМЕНОВАТЬ КЛАССЫ В ИНДЕКС */
